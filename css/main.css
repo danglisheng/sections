@@ -1,0 +1,68 @@
+html,body {
+  margin:0;
+  padding:0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  background-color: #eee9de; 
+  font-family: "Lato",sans-serif;
+}
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+.pyramid {
+  text-align: center;
+  padding-top:2em;
+  padding-bottom:2em;
+
+}
+.pyramid figure {
+  max-width: 25em;
+  display:inline-block;
+  margin:0;
+  vertical-align: middle;
+  padding:1em;
+}
+.pyramid img {
+  width:100%;
+}
+
+.pyramid .info {
+  display: inline-block;
+  max-width: 25em;
+  text-align: left;
+  
+  font-weight: bold;
+  vertical-align: middle;
+  padding:1em;
+}
+.info h2 {
+  margin-top: 0;
+  margin-bottom:1.5rem;
+}
+.info .btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: .4em .75em .5em;
+  border:solid 3px #000;
+  border-radius: 4px;
+  background-color: #eee9de;
+  color:#333;
+  font-weight:600;
+  margin-top:1em;
+}
+.info .btn:hover {
+  color: #fff;
+  background-color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
